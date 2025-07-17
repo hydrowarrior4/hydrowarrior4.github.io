@@ -43,7 +43,7 @@
 					diameter: 4
 				}, scene);
 				playerSphere.material = new BABYLON.StandardMaterial("playerSphereMaterial", scene);
-				playerSphere.material.diffuseTexture = new BABYLON.Texture('/resources/BeachBallColor.jpg', scene);
+				playerSphere.material.diffuseTexture = new BABYLON.Texture('resources/BeachBallColor.jpg', scene);
 				playerSphere.position = new BABYLON.Vector3(xFn(0), 9, zFn(0));
 
 				playerSphere.physicsImpostor = new BABYLON.PhysicsImpostor(playerSphere, BABYLON.PhysicsImpostor.SphereImpostor, {
